@@ -1,0 +1,94 @@
+.root {
+      --card-border: #dbdbdb;
+      --bg: #fafafa;
+      --link: #00376b;
+      --text-muted: #737373;
+      --btn: #0095f6;
+      --btn-hover: #1877f2;
+    }
+     .auth-wrap {
+      max-width: 935px;
+    }
+.screen {
+
+background-color: rgb(241, 203, 216);
+}
+    .auth-card, .signup-card {
+      border: 1px solid var(--card-border);
+      background: #fff;
+    }
+    .auth-card {
+      padding: 40px 40px 28px;
+    }
+    .brand {
+      font-family: 'Lobster', cursive;
+      font-size: 48px;
+      line-height: 1;
+      text-align: center;
+      margin-bottom: 28px;
+      letter-spacing: .5px;
+      user-select: none;
+    }
+    .form-control {
+      background: #fafafa;
+      border-color: #dbdbdb;
+      height: 38px;
+      font-size: 14px;
+    }
+    .login-btn {
+      background-color: var(--btn);
+      border-color: var(--btn);
+      color: #fff;
+      font-weight: 600;
+    }
+    .login-btn:hover {
+      background-color: var(--btn-hover);
+      border-color: var(--btn-hover);
+      color: #2a8ef2;
+    }
+    .divider {
+      display: flex;
+      align-items: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      gap: 18px;
+      margin: 12px 0 18px;
+    }
+    .divider::before, .divider::after {
+      content: "";
+      flex: 1 1 auto;
+      height: 1px;
+      background: #dbdbdb;
+    }
+    .fb-btn {
+      font-weight: 600;
+      color: #385185;
+    }
+    .forgot {
+      font-size: 12px;
+      color: var(--link);
+      text-decoration: none;
+    }
+    .signup-card {
+      padding: 22px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .app-badges img {
+      height: 40px;
+    }
+    .muted {
+      color: var(--text-muted);
+      font-size: 12px;
+    }
+
+    /* Tiny utilities for tighter spacing on small screens */
+    @media (max-width: 991.98px) {
+      .phone-wrap { display: none; }
+      .auth-card { padding: 32px 28px 24px; }
+    }
+    .lumio{
+      color: rgb(210, 110, 144);
+    }
+    

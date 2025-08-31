@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post-list-page</title>
+<!-- bs cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!-- css link -->
+ <link rel="stylesheet" href="./style.css">
+<!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+<body>
+   <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-transparent py-3">
+        <div class="container">
+            <a class="display-3 ">
+                Lumio
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navMain">
+                <ul class="navbar-nav align-items-lg-center mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile-detail.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .post-card {
+      border: 1px solid #e0e0e0;
+      border-radius: .5rem;
+      background: #fff;
+    }
+    .post-header img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+    .post-img {
+      max-height: 400px;
+      object-fit: cover;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-4">
+    <h2 class="mb-4 text-center">Post Feed</h2>
+
+    <!-- Post 1 -->
+    <div class="post-card mb-4 shadow-sm">
+      <div class="post-header d-flex align-items-center p-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\alex-suprun-bYODySpLIhE-unsplash.jpg" class="rounded-circle me-2" alt="User">
+        <strong>@john_doe</strong>
+      </div>
+      <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\quino-al-mBQIfKlvowM-unsplash.jpg" class="post-img" alt="Post Image">
+      <div class="p-3">
+        <p>Enjoying a peaceful evening at the beach ...enjoying every moments</p>
+        <div class="d-flex">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="post-card mb-4 shadow-sm">
+      <div class="post-header d-flex align-items-center p-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\closeup-shot-beautiful-malayali-modern-girl-smiling-generative-ai_802140-1418.avif" class="rounded-circle me-2" alt="User">
+        <strong>@veeedhaa</strong>
+      </div>
+      <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\anil-reddy-bYrhc0tj2zQ-unsplash.jpg" class="post-img" alt="Post Image">
+      <div class="p-3">
+        <p>traditional outfit!!!.... Turned out amazing!</p>
+        <div class="d-flex">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post 3 (text only) -->
+    <div class="post-card mb-4 shadow-sm">
+      <div class="post-header d-flex align-items-center p-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\radiant-elegance-portrait-beautiful-sri-lankan-girl_1106493-44293.avif" class="rounded-circle me-2" alt="User">
+        <strong>@travel_girl</strong>
+      </div>
+            <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\gigin-krishnan-qHj0sGMZJF0-unsplashmunnar.jpg" class="post-img" alt="Post Image">
+
+      <div class="p-3">
+        <p> trip to Munnar .... how is it??</p>
+        <div class="d-flex">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+    </div>
+    <!-- post 4 -->
+
+    <div class="post-card mb-4 shadow-sm">
+      <div class="post-header d-flex align-items-center p-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\ai-generated-7894413_1280.jpg" class="rounded-circle me-2" alt="User">
+        <strong>@elzzaaa</strong>
+      </div>
+      <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\car2.jpg" class="post-img" alt="Post Image">
+      <div class="p-3">
+        <p>meet my new one...like it!!!</p>
+        <div class="d-flex">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

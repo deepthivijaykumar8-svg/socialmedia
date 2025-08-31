@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile-details</title>
+<!-- bs cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!-- css link -->
+ <link rel="stylesheet" href="./style.css">
+<!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+     <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-transparent py-3">
+        <div class="container">
+            <a class="display-3 lumio ">
+                Lumio
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navMain">
+                <ul class="navbar-nav align-items-lg-center mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">settings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+    }
+    .bio {
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+    }
+    .stats {
+      text-align: center;
+    }
+    .stats h6 {
+      margin: 0;
+      font-weight: 600;
+    }
+    .stats p {
+      margin: 0;
+      font-size: 14px;
+      color: #777;
+    }
+    .posts img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      margin-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <!-- Profile Header -->
+    <div class="d-flex align-items-center mb-3">
+      <div class="me-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\antonio-pina-IKVoNozts8g-unsplash.jpg" alt="Profile Picture" class="profile-img">
+      </div>
+      <div class="flex-grow-1">
+        <h5>Deepthi</h5>
+        <div class="d-flex mb-2 stats">
+          <div class="me-4">
+            <h6>120</h6>
+            <p>Posts</p>
+          </div>
+          <div class="me-4">
+            <h6>5.6k</h6>
+            <p>Followers</p>
+          </div>
+          <div>
+            <h6>300</h6>
+            <p>Following</p>
+          </div>
+        </div>
+        <p class="bio">Full stack developer | Traveler</p>
+        <button class="btn btn-outline-secondary btn-sm">Follow</button>
+        <button class="btn btn-outline-secondary btn-sm">Message</button>
+      </div>
+    </div>
+
+    <!-- Posts Grid -->
+    <div class="row g-5">
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts mb-3">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\pic2.jpg" alt="Post 1">
+        <p>sun kisssed...!!</p>
+
+        <div class="d-flex mt-2 ">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+
+      </div>
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\abroad 2.jpg" alt="Post 2">
+        <p>The city is like poetry; it compresses all life, all imagination, into a small island and adds music and the accompaniment of internal engines.</p>
+
+         <div class="d-flex mt-2">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\3.jpg" alt="Post 3">
+        <p>Look deep into nature, and then you will understand everything better.</p>
+
+         <div class="d-flex mt-2">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\abroad1.jpg" alt="Post 4">
+        <p>She stands for freedom and democracy, guiding those who seek a better life</p>
+         <div class="d-flex mt-2">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\pic6.jpg" alt="Post 5">
+        <p>Night falls, mountains stand, stars shine—nature in perfect harmony.</p>
+         <div class="d-flex mt-2">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+      <div class="col-4 col-lg-4 col-m-4 col-12 posts">
+        <img src="C:\Users\gamin\OneDrive\Desktop\social_media_task\images\gigin-krishnan-qHj0sGMZJF0-unsplashmunnar.jpg" alt="Post 6">
+        <p>“Adopt the pace of nature: her secret is patience.”</p>
+         <div class="d-flex mt-2">
+          <button class="btn btn-sm btn-outline-primary me-2"><i class="bi bi-heart"></i> Like</button>
+          <button class="btn btn-sm btn-outline-secondary me-2"><i class="bi bi-chat"></i> Comment</button>
+          <button class="btn btn-sm btn-outline-success"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+</body>
+</html>
